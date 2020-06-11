@@ -13,10 +13,10 @@ long l;
 long long ll;
 float f;
 
-puts("size of a char: %d byte(s)", (sizeof)(c));
-puts("size of an int: %d byte(s)", (sizeof)(i));
-puts("size of a long: %d byte(s)", (sizeof)(l));
-puts("size of a long long: %d byte(s)", (sizeof)(ll));
-puts("size of a float: %d byte(s)", (sizeof)(f));
+printf("size of a char: %d byte(s)\n", sizeof(c));
+printf("size of an int: %d byte(s)\n", sizeof(i));
+printf("size of a long: %d byte(s)\n", sizeof(l));
+printf("size of a long long: %d byte(s)\n", sizeof(ll));
+printf("size of a float: %d byte(s)\n", sizeof(f));
 return (0);
 }
