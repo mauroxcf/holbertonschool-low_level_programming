@@ -10,11 +10,19 @@ int main(void)
 {
 
 int a;
+char b;
+a = 0;
 
-for (a = 0; a <= 9; a++)
+while (a <= 9)
 {
-putchar(a);
+putchar(a + '0');
+a++;
 }
+for (b = 'a'; b <= 'f'; b++)
+{
+putchar(b);
+}
+
 putchar('\n');
 return (0);
 }

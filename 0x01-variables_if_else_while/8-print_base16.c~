@@ -9,18 +9,20 @@
 int main(void)
 {
 
-char a;
-a = 'a';
+int a;
+char b;
+a = 0;
 
-while (a <= 'z')
+while (a <= 9)
 {
-
-if (a != 'e' || a != 'q')
-putchar (a);
+putchar(a + '0');
 a++;
-
+}
+for (b = 'a'; b <= 'f';b++)
+{
+putchar(b);
 }
 
-putchar ('\n');
+putchar('\n');
 return (0);
 }
