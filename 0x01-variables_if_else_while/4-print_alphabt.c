@@ -10,13 +10,17 @@ int main(void)
 {
 
 char a;
+a = 'a';
 
-for (a = 'a'; a <= 'z'; a++)
+while (a <= 'z')
 {
+
+if (a != 'e' && a != 'q')
 putchar (a);
+a++;
+
 }
-putchar ('n/');
 
+putchar ('\n');
 return (0);
-
 }
