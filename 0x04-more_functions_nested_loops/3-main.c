@@ -5,12 +5,8 @@
  *
  * Return: Always 0.
  */
-
-int mul(98, 1024)
+int main(void)
 {
-
-( a * b)
-
-return (0);
-
+  print_numbers();
+  return (0);
 }

@@ -1,0 +1,23 @@
+#include "holberton.h"
+
+/**
+ * mul - multiplie the intergers in this function.
+ * @a: interger with a value number.
+ * @b: interger with a value number.
+ * Return: the result.
+ */
+
+void print_numbers(void)
+{
+
+char a = 48 ;
+
+while (a <= 57)
+{
+_putchar (a);
+a++;
+}
+
+_putchar ('\n');
+
+}
