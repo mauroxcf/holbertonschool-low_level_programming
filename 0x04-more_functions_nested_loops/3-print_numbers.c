@@ -8,7 +8,7 @@
 void print_numbers(void)
 {
 
-char a = 48 ;
+char a = 48;
 
 while (a <= 57)
 {
