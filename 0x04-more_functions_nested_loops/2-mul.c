@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * mul - multiplie the intergers in this function.
  *
- * Return: Always 0.
+ * Return: the result.
  */
 
 int mul(int a, int b)
