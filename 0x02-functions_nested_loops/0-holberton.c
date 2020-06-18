@@ -18,7 +18,7 @@ char r = 'r';
 char t = 't';
 char n = 'n';
 
-{
+
 _putchar (h);
 _putchar (o);
 _putchar (l);
@@ -29,7 +29,7 @@ _putchar (t);
 _putchar (o);
 _putchar (n);
 
-}
+
 
 
 
