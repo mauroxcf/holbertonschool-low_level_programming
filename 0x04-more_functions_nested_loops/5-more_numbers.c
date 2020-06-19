@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _more_numbers - print more numbers with putchar.
+ * more_numbers - print more numbers with putchar.
  * _putchar: print characters.
  */
 
