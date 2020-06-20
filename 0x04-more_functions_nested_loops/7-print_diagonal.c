@@ -19,6 +19,6 @@ _putchar (32);
 _putchar (92);
 _putchar ('\n');
 }
-if (n < 0)
+if (n <= 0)
 _putchar ('\n');
 }
