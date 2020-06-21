@@ -15,6 +15,10 @@ if (n % 15 == 0)
 {
 printf("FizzBuzz ");
 }
+else if (n == 100)
+{
+printf("Buzz");
+}
 else if (n % 3 == 0)
 {
 printf("Fizz ");
