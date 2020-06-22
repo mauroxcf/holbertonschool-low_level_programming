@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * print_alphabet_x10 - print the alphabet ten times.
- *
+ * _islower - checks for a lower-case character.
+ *@c: letter of the alphabet.
  * Return: Always 0.
  */
 
@@ -10,12 +10,12 @@
 int _islower(int c)
 {
 
-  if ( c >= 'a' && c <= 'z')
-    {   
- return (1); 
-    }
-  else
-    {    
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else
+{
 return (0);
-    }
+}
 }
