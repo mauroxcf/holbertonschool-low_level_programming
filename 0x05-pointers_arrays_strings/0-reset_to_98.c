@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * reset_to_98 - reset the pointer variable value.
+ *@n: pointer variable.
  * Return: Always 0.
  */
 
