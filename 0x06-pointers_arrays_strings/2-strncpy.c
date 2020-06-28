@@ -5,7 +5,6 @@
  * @dest: description
  * @src: description
  * @n: description
- * 
  * Return: The string.
  */
 
