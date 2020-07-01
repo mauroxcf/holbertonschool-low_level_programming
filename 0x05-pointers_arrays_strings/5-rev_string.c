@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * rev_string - revert the string.
@@ -6,15 +7,41 @@
  * Return: Always 0.
  */
 
+
+void swap_f(char *a, char *b);
+
 void rev_string(char *s)
 {
+  int a;
+  char *b;
+  int swaps;
 
-int a;
+  b = s;
 
+  for (a = 0; s[a] != '\0'; a++)
+    b++;
 
-for (a = 0; s[a] != '\0'; a++)
-;
+  swaps = a / 2;
+  b--;
 
+  for (a = 0; a < swaps; a++)
+    {
+      swap_f(&s[a], b);
+      b--;
+    }
 
+}
 
+/**
+ * swap_f - swaps the value of two integers.
+ * @a: first integer
+ * @b: second integer
+ */
+void swap_f(char *a, char *b)
+{
+  char c;
+
+  c = *a;
+  *a = *b;
+  *b = c;
 }
