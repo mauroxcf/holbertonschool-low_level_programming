@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - check the code for Holberton School students.
- * _
+ * @s:variable
  * Return: Always 0.
  */
 void _puts_recursion(char *s)
