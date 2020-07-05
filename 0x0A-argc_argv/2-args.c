@@ -9,8 +9,19 @@
  */
 
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-printf("%s\n", argv[0]);
+
+int cont;
+
+for (cont = 0; cont < argc; cont++)
+
+printf("%s\n", argv[cont]);
+
 return (0);
+
 }
+
+
+
+
