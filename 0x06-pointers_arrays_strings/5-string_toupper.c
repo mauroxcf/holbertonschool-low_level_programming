@@ -13,7 +13,7 @@ int cont2;
 
 for (cont = 0; cont[a] != '\0'; cont++)
 {
-for (; cont2 < cont; cont2++)
+for (cont2 = 0; cont2 < cont; cont2++)
 {
 if (cont2[a] >= 97 && cont2[a] <= 122)
 {
