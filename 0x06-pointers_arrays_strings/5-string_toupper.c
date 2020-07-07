@@ -15,7 +15,7 @@ for (cont = 0; a[cont] != '\0'; cont++)
 {
 for (cont2 = 0; cont2 < cont; cont2++)
 {
-if (a[cont2] >= 97 && a[cont2] <= 122)
+if (a[cont2] >= 'a' && a[cont2] <= 'z')
 {
 a[cont2] = a[cont2] - 32;
 }
