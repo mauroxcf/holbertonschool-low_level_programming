@@ -11,13 +11,13 @@ char *string_toupper(char *a)
 int cont;
 int cont2;
 
-for (cont = 0; cont[a] != '\0'; cont++)
+for (cont = 0; a[cont] != '\0'; cont++)
 {
 for (cont2 = 0; cont2 < cont; cont2++)
 {
-if (cont2[a] >= 97 && cont2[a] <= 122)
+if (a[cont2] >= 97 && a[cont2] <= 122)
 {
-cont2[a] = cont2[a] - 32;
+a[cont2] = a[cont2] - 32;
 }
 }
 }
