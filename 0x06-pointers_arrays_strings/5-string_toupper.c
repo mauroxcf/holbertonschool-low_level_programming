@@ -14,7 +14,7 @@ for (cont = 0; a[cont] != '\0'; cont++)
 
 if (a[cont] >= 'a' && a[cont] <= 'z')
 {
-a[cont2] = a[cont2] - 32;
+a[cont] = a[cont] - 32;
 }
 
 
