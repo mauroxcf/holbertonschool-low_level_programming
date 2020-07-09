@@ -26,7 +26,7 @@ for (a = 0; str[a] != '\0'; a++)
 
 ptr = malloc(sizeof(char) * (a + 1));
 
-if (!str)
+if (!ptr)
 {
 return (NULL);
 }
