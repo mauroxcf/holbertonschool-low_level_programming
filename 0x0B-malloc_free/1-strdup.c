@@ -16,6 +16,7 @@ int a;
 char *ptr;
 int b;
 
+
 if (!str)
 {
 return (NULL);
@@ -23,7 +24,7 @@ return (NULL);
 for (a = 0; str[a] != '\0'; a++)
 ;
 
-ptr = malloc(sizeof(char) * a);
+ptr = malloc(sizeof(char) * (a + 1));
 
 if (!str)
 {
