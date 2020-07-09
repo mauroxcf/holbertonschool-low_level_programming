@@ -46,7 +46,7 @@ ptr[c] = s1[c];
 else
 ptr[c] = s2[d++];
 }
-
+ptr[c] = '\0';
 return (ptr);
 
 }
