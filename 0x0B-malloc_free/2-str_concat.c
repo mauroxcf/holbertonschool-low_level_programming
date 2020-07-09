@@ -32,7 +32,7 @@ for (a = 0; s1[a] != '\0'; a++)
 for (b = 0; s2[b] != '\0'; b++)
 ;
 ptr = malloc((a * sizeof(s1)) + (b * sizeof(s2)) + 1);
-{
+
 if (!ptr)
 {
 return (NULL);
@@ -46,6 +46,7 @@ ptr[c] = s1[c];
 else
 ptr[c] = s2[d++];
 }
+
 return (ptr);
-}
+
 }
