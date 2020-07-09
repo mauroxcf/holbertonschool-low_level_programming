@@ -31,7 +31,7 @@ for (a = 0; s1[a] != '\0'; a++)
 ;
 for (b = 0; s2[b] != '\0'; b++)
 ;
-ptr = malloc((a * sizeof(s1)) + (b * sizeof(s2)) + 1);
+ptr = malloc((a * sizeof(*s1)) + (b * sizeof(*s2)) + 1);
 
 if (!ptr)
 {
@@ -46,7 +46,7 @@ ptr[c] = s1[c];
 else
 ptr[c] = s2[d++];
 }
-ptr[c] = '\0';
+
 return (ptr);
 
 }
