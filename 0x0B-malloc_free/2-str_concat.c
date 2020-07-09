@@ -20,11 +20,11 @@ int d;
 
 if (!s1)
 {
-return ("");
+s1 = "";
 }
 if (!s2)
 {
-return ("");
+s2 = "";
 }
 
 for (a = 0; s1[a] != '\0'; a++)
