@@ -35,6 +35,6 @@ for (b = 0; str[b]; b++)
 {
 ptr[b] = str[b];
 }
-ptr[b] = '\0';
+ptr[a] = '\0';
 return (ptr);
 }
