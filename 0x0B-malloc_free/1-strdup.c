@@ -31,10 +31,10 @@ return (NULL);
 }
 
 for (b = 0; str[b]; b++)
+;
 
-{
 ptr[b] = str[b];
-}
+
 
 return (ptr);
 }
