@@ -37,7 +37,7 @@ if (!ptr)
 {
 return (NULL);
 }
-for (c = 0, d = 0; c < (a + b + 1); c++)
+for (c = 0, d = 0; c <= (a + b + 1); c++)
 {
 if (c < a)
 {
