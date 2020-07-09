@@ -31,10 +31,10 @@ if (!str)
 return (NULL);
 }
 
-for (b = 0; str[b]; b++)
+for (b = 0; str[b] != '\0'; b++)
 {
 ptr[b] = str[b];
 }
-ptr[a] = '\0';
+ptr[b] = '\0';
 return (ptr);
 }
