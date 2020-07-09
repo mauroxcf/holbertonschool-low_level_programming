@@ -21,7 +21,7 @@ if (!str)
 return (NULL);
 }
 for (a = 0; str[a] != '\0'; a++)
-;
+{
 
 ptr = malloc(sizeof(char) * a);
 
@@ -29,11 +29,12 @@ if (!str)
 {
 return (NULL);
 }
+}
 
 for (b = 0; str[b]; b++)
-  {
+{
 ptr[b] = str[b];
-  }
+}
 
 return (ptr);
 }
