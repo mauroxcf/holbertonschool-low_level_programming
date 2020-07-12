@@ -1,0 +1,35 @@
+#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * *_calloc - reserve and signe a size
+ * @nmemb: elements of size bytes each
+ * @size: the size of the memory to print
+ *
+ * Return: Nothing.
+ */
+
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
+
+unsigned int b;
+char *a;
+unsigned int c;
+
+if (nmemb == 0 || size == 0)
+return (NULL);
+
+c = (nmemb * size);
+a = malloc(c);
+if (!nmemb)
+{
+return (NULL);
+}
+
+for (b = 0; b < c; b++)
+
+a[b] = 0;
+
+return (a);
+}
