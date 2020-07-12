@@ -14,10 +14,10 @@ int tabla;
 
 for (a = 0; a <= 9; a++)
 {
-for (b = 0; b <=9;b++)
+for (b = 0; b <= 9; b++)
 {
 tabla = a * b;
-if ( tabla <= 9)
+if (tabla <= 9)
 {
 if (b >= 1 && b <= 9)
 {
