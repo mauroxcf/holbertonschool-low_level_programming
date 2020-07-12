@@ -22,14 +22,14 @@ if (min > max)
 return (NULL);
 }
 
-result = max - min;
-ptr = malloc(result * (sizeof(int)) + 1);
+ result = (max - min) + 1;
+ptr = malloc(result * (sizeof(int)));
 if (!ptr)
 {
 return (NULL);
 }
-for (a = 0; a <= result; a++, min++)
-ptr[a] = min;
+for (a = 0; a < result; a++)
+ptr[a] = min + a;
 
 return (ptr);
 }
