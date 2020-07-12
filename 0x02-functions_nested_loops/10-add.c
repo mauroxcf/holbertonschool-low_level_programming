@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * add - sum two integer variables.
+ *@a:integer variable
+ *@b:integer variable
  * Return: Always 0.
  */
 
