@@ -22,7 +22,7 @@ return (NULL);
 
 c = (nmemb * size);
 a = malloc(c);
-if (!nmemb)
+if (!a)
 {
 return (NULL);
 }
