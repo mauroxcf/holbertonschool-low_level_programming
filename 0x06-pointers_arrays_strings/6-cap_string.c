@@ -12,8 +12,7 @@ char *cap_string(char *ptr)
 
 int a;
 int b;
-char *s;
-s = " \t\n,;.!\?\"(){}";
+char s[] = {9, 10 , 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
 
 for (a = 0; ptr[a] != '\0'; a++)
 {
