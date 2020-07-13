@@ -19,6 +19,9 @@ for (a = 0; ptr[a] != '\0'; a++)
 {
 for (b = 0; s[b] != '\0'; b++)
 {
+if (ptr[0] >= 'a' && ptr[0] <= 'z')
+ptr[0] = ptr[0] - 'a' + 'A';
+
 if (s[b] == ptr[a])
 {
 if (ptr[a + 1] >= 'a' && ptr[a + 1] <= 'z')
