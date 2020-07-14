@@ -14,7 +14,7 @@ int n;
 for (n = 0; str[n] != '\0' ; n++)
 {
 
-if ((n - 1) / 2)
+if ((n - 1) / 4)
 
 _putchar (str[n]);
 
