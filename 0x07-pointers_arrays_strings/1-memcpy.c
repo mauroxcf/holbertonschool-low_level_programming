@@ -21,7 +21,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	  dest[count] = src[count];
     }
-}
+
     
 return (dest);
 
