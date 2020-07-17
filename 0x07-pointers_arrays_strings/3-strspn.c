@@ -22,8 +22,9 @@ for (count2 = 0; f[count2] != '\0'; count2++)
 if (f[count2] == s[count])
 {
 a++;
+break;
 }
-else if (f[count] == '\0')
+else if (f[count2 + 1] == '\0')
 return (a);
 }
 }
