@@ -29,7 +29,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			printf("(nil)");
 		}
-		printf("%s", b);
+		else
+			printf("%s", b);
 		b = va_arg(valist, char *);
 
 			if (a + 1 != n)
