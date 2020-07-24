@@ -14,6 +14,14 @@ char *_strpbrk(char *s, char *f)
 	int a;
 	int b;
 
+	if (!s[0])
+	{
+		return (NULL);
+	}
+	if (!f[0])
+	{
+		return (NULL);
+	}
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
