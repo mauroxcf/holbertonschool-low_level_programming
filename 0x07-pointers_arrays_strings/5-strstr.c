@@ -18,6 +18,10 @@ char *_strstr(char *s, char *f)
 	{
 		return (NULL);
 	}
+	if (f[0] == '\0')
+	{
+		return (s);
+	}
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
@@ -29,8 +33,10 @@ char *_strstr(char *s, char *f)
 			}
 			else if (s[a] == f[b])
 			{
-				return (s + a);
+				if (s[a + 1] == f[b + 1])
+					return (s + a);
 			}
+
 		}
 
 	}
