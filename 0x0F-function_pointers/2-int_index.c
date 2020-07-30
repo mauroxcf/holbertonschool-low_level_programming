@@ -18,12 +18,15 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 
 	if (!array || !cmp)
-		return (0);
+		return (-1);
 
 	for (a = 1; a < size; a++)
 	{
 		if (cmp(array[a]) > 0)
 			return (a);
+
+		else if (cmp(array[a]) == 98)
+			 return (a);
 
 		else if (cmp(array[a + 1]) == '\0')
 			return (-1);
