@@ -11,7 +11,12 @@ unsigned int binary_to_uint(const char *b)
 {
 	int a = 0;
 	int result = 0;
-	int pow = 1;
+	int x = 0;
+
+		if (b == NULL)
+		{
+			return (0);
+		}
 
 	while (b[a] != '\0')
 	{
@@ -25,9 +30,9 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
-		result += (b[a] - 48) * pow;
-		pow *= 2;
+		result += (b[a] - 48) << x;
 		a--;
+		x++;
 	}
 	return (result);
 }
