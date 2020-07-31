@@ -2,8 +2,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * get_bit - get bit in the index.
+ *@n: value
+ *@index: index position to set
  * Return: Always 0.
  */
 
