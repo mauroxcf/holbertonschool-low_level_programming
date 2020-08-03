@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * list_len - print every element of the node structure.
+ * list_len - print numbers of element of the node structure.
  *@h: head of the node.
  * Return: Numbers of elements.
  */
