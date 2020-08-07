@@ -11,6 +11,7 @@ int main(int argc, char **argv)
 {
 	int fd, rst, fd2, wst;
 	char buff[1024];
+	mode_t permisos = S_IRUSR | S_IWUSR | S_IWGRP | S_IRGRP | S_IROTH;
 
 	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
@@ -22,7 +23,7 @@ int main(int argc, char **argv)
 		exit(98);
 	}
 
-	fd2 = open(argv[2], O_WRONLY | O_TRUNC | O_CREAT, 0664);
+	fd2 = open(argv[2], O_WRONLY | O_TRUNC | O_CREAT, permisos);
 	if (fd2 == -1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 
