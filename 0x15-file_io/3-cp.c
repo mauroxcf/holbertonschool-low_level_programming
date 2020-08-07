@@ -33,13 +33,13 @@ int main(int argc, char **argv)
 		if (rst == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-		exit(98);
+			exit(98);
 		}
 		if (rst > 0)
 		{
 			wst = write(fd2, buff, rst);
 			if (rst != wst || wst == -1)
-				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[1]), exit(99);
+				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 		}
 	}
 	if (close(fd) == -1)
