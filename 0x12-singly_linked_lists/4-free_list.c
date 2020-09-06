@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * free_dlistint - free the linked list type dlistint.
+ * free_list- free the linked list type list_t.
  *@head:node head.
  * Return: Always 0.
  */
