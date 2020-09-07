@@ -5,7 +5,7 @@
 
 /**
  * print_listint - print every element of the node structure.
- *@h: head of the node.
+ *@h: head node.
  * Return: Always 0.
  */
 
