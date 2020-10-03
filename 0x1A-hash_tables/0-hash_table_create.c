@@ -3,9 +3,7 @@
 
 /**
  * hash_table_create - Creates a hash table
- *
  * @size: Numbers of buckets to create
- *
  * Return: New hash_table or NULL if failed
  **/
 hash_table_t *hash_table_create(unsigned long int size)
