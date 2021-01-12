@@ -58,8 +58,8 @@ int binary_search(int *array, size_t size, int value)
 			else
 			{
 				printf("Searching in array: ");
-                printf("%d\n", array[middle]);
-                return (middle);
+				printf("%d\n", array[middle]);
+				return (middle);
 			}
 		}
 	}
