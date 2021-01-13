@@ -52,7 +52,10 @@ int binary_search(int *array, size_t size, int value)
 				if (L <= R)
 				{
 					printf("Searching in array: ");
-					printf_array(array, L, (R + 1));
+					if (array[L] == array[R])
+						printf("%d\n", array[L]);
+					else
+						printf_array(array, L, (R + 1));
 				}
 			}
 			else
